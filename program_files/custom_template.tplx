@@ -1,0 +1,10 @@
+{% extends 'base.tpl' %}
+{% block body %}
+{% for cell in nb.cells %}
+{% if cell.cell_type == 'markdown' %}
+{{ cell.source | markdown2html }}
+{% elif cell.cell_type == 'code' %}
+{{ cell.outputs | markdown2html }}
+{% endif %}
+{% endfor %}
+{% endblock %}
