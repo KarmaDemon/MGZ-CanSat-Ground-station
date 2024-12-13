@@ -3,6 +3,8 @@ This module provides several funtions for managing data and logging.
 It is designed specifically for the MGZ CanSat mission.
 """
 
+__author__ = "KarmaDemon"
+
 try:
     import logging
     from logging.handlers import RotatingFileHandler

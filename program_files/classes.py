@@ -1,6 +1,9 @@
 """
 This module provides classes for CanSat data analyzis.
 """
+
+__author__ = "KarmaDemon"
+
 try:
     from cansattools import logger_creator, free_logger
 except ImportError:

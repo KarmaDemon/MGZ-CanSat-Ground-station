@@ -5,6 +5,8 @@ Example:
     python plot_graph.py plot.pkl
 """
 
+__author__ = "KarmaDemon"
+
 file_name = "BMP_raw.pkl"
 
 import os
