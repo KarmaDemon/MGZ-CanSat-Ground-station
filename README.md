@@ -26,5 +26,3 @@ Due to the complexity of the environmental necessities, the setup process can be
 The graphs inside Visualization.ipynb are static images. If you would like to open the graphs in an interactive environment, you will need to run graphs/pkls/plot_graph.py. You can find more information in the graphs/pkls/README.md file.
 
 The generated SQLite database is accesible inside the datas folder. It can be used for further analyzes.
-
-The codebase is not copyrighted.

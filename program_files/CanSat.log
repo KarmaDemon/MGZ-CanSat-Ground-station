@@ -24243,3 +24243,23 @@ https://pandoc.org/installing.html
 2024-12-10 15:42:15,640 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 118.0390825047941
 2024-12-10 15:42:15,826 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -75
 2024-12-10 15:42:16,243 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 7.860033275429714
+2024-12-16 20:23:38,013 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 146.009236731805
+2024-12-16 20:23:41,306 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 140
+2024-12-16 20:23:41,434 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -17
+2024-12-16 20:23:43,035 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -42
+2024-12-16 20:23:43,135 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 131
+2024-12-16 20:23:43,319 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -49
+2024-12-16 20:23:43,894 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -65.2534003887115
+2024-12-16 20:23:43,901 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -83
+2024-12-16 20:23:43,906 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -87
+2024-12-16 20:23:44,008 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -46
+2024-12-18 21:18:32,718 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'list' object has no attribute 'temperature'
+2024-12-18 21:19:40,380 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'list' object has no attribute 'temperature'
+2024-12-18 21:20:01,222 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '4°'
+2024-12-18 21:20:42,340 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+2024-12-18 21:21:23,040 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+2024-12-18 21:22:02,104 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '4°'
+2024-12-18 21:22:02,104 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '4°'
+2024-12-18 21:24:06,038 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '°'
+2024-12-18 21:24:06,038 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '°'
+2024-12-18 21:24:06,038 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '°'
