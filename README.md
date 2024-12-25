@@ -1,5 +1,8 @@
 # MGZ Ground station program
 
+## Version
+The program is currently under developement. There might be missing parts, unfinished scetches, bugs and inconsistencies.
+
 ## Introduction
 This program is part of the MGZ CanSat mission, which is designed for the CanSat verseny 2024 competition. For more information about the competition, visit the official website: https://www.cansatverseny.hu/
 The program was created by the MákosGubaZabálók team.

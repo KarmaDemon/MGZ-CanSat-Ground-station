@@ -24263,3 +24263,21 @@ https://pandoc.org/installing.html
 2024-12-18 21:24:06,038 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '°'
 2024-12-18 21:24:06,038 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '°'
 2024-12-18 21:24:06,038 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: could not convert string to float: '°'
+2024-12-21 21:44:21,968 - jupyter_notebook - ERROR - Error visualizing data: 'list' object has no attribute 'latitude'
+2024-12-21 21:49:18,668 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (42,).
+2024-12-21 21:54:44,156 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-21 21:54:44,156 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-25 12:20:16,162 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-25 12:32:15,164 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-25 12:32:15,164 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-25 12:34:36,910 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-25 12:34:36,910 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-25 12:36:06,600 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-25 12:36:06,600 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-25 12:36:06,600 - jupyter_notebook - ERROR - Error visualizing data: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (77,) and arg 3 with shape (41,).
+2024-12-25 12:39:39,834 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-25 12:39:39,834 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-25 12:39:39,834 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
