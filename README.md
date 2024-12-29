@@ -9,6 +9,8 @@ The program was created by the MákosGubaZabálók team.
 
 The program makes basic analyzis and refinement on the measured datas of our CanSat when our data sources are updated and our IPython Notebook is restarted. Due to the fact that our mission is a one time flight, this technique is a bit overcomplicated and unnescessarily robust. However, this method of data analyzis makes reusability a possibility and testing less time consuming. Our scripts are designed to be easily readable and usable on other windows computers as well. This makes collaboration accessible and less problematic. These are crucial aspects on an offical mission, which we aim to replicate to the best of our ability.
 
+The only official source for the program is the following GitHub repository: https://github.com/KarmaDemon/MGZ-CanSat-Ground-station Do NOT download the program from any other source for your own safety!
+
 ## Execution
 In order to execute the analyzis, open the Visualization.ipynb and run it's scripts. The IPython Notebook requires the installation of Python 3.12.7 and an up to date environment for working with Jupiter Notebooks. For furter information, visit the official website: https://code.visualstudio.com/docs/datascience/jupyter-notebooks
 

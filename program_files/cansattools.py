@@ -8,6 +8,7 @@ __author__ = "KarmaDemon"
 try:
     import logging
     from logging.handlers import RotatingFileHandler
+    import traceback
 except ImportError:
     print("Error importing logging module. Logging is disabled.")
 
@@ -28,13 +29,17 @@ def logger_creator(name: str = __name__) -> logging.Logger:
     Returns:
         logging.Logger: The configured logger instance.
     """
+    class CustomFormatter(logging.Formatter):
+        def formatException(self, exc_info):
+            result = super().formatException(exc_info)
+            return f"{result}\n{traceback.format_exc()}"
 
     logging.info("Logging system test.")
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
     handler = RotatingFileHandler(f"{__file__[:len(__file__) - len('cansattools.py')]}/CanSat.log", mode='a', maxBytes=5*1024*1024, backupCount=2, encoding=None, delay=0)
     logger.addHandler(handler)
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    formatter = CustomFormatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     handler.setFormatter(formatter)
     handler.setLevel(logging.INFO)
 

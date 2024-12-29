@@ -24281,3 +24281,4 @@ https://pandoc.org/installing.html
 2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
 2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
 2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
+2024-12-27 14:24:18,989 - jupyter_notebook - ERROR - Error saving the BMP280 data: [Errno 22] Invalid argument: 'graphs/pkls/BMP_refined.pkl'
