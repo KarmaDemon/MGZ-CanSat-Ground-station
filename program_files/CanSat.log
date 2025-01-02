@@ -24282,3 +24282,105 @@ https://pandoc.org/installing.html
 2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
 2024-12-25 12:43:25,138 - jupyter_notebook - ERROR - Error visualizing data: list indices must be integers or slices, not tuple
 2024-12-27 14:24:18,989 - jupyter_notebook - ERROR - Error saving the BMP280 data: [Errno 22] Invalid argument: 'graphs/pkls/BMP_refined.pkl'
+2025-01-02 14:45:08,663 - jupyter_notebook - ERROR - Error visualizing data: name 'first_time_outlier' is not defined
+2025-01-02 14:52:46,796 - jupyter_notebook - ERROR - Error visualizing data: name 'first_time_outlier' is not defined
+2025-01-02 14:52:46,796 - jupyter_notebook - ERROR - Error visualizing data: name 'first_time_outlier' is not defined
+2025-01-02 14:56:23,112 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -243.00818869033154
+2025-01-02 14:56:23,586 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 109.64167568978436
+2025-01-02 14:56:28,461 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 145
+2025-01-02 14:56:29,037 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -33
+2025-01-02 14:56:29,242 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -59
+2025-01-02 14:56:29,922 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -17
+2025-01-02 14:56:29,929 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -22
+2025-01-02 14:56:29,960 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -43
+2025-01-02 14:56:31,910 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -53.42957455881738
+2025-01-02 14:56:31,987 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -320.4076925673156
+2025-01-02 14:56:34,975 - jupyter_notebook - ERROR - Error saving the DHT11 data: [Errno 22] Invalid argument: 'graphs/pkls/DHT_raw.pkl'
+2025-01-02 14:56:34,975 - jupyter_notebook - ERROR - Error saving the DHT11 data: [Errno 22] Invalid argument: 'graphs/pkls/DHT_raw.pkl'
+2025-01-02 14:56:34,975 - jupyter_notebook - ERROR - Error saving the DHT11 data: [Errno 22] Invalid argument: 'graphs/pkls/DHT_raw.pkl'
+2025-01-02 14:56:34,975 - jupyter_notebook - ERROR - Error saving the DHT11 data: [Errno 22] Invalid argument: 'graphs/pkls/DHT_raw.pkl'
+2025-01-02 15:22:34,091 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 161
+2025-01-02 15:22:38,704 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 163
+2025-01-02 15:22:41,558 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -134
+2025-01-02 15:22:43,233 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 148.79868251499514
+2025-01-02 15:22:43,870 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -72.02331584756905
+2025-01-02 15:22:44,139 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -203.9408968120845
+2025-01-02 15:22:44,146 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -139
+2025-01-02 15:22:44,773 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -274.2705369340934
+2025-01-02 15:28:27,358 - jupyter_notebook - ERROR - Error inserting data into the objects: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+
+2025-01-02 15:28:27,358 - jupyter_notebook - ERROR - Error inserting data into the objects: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+
+2025-01-02 15:28:27,358 - jupyter_notebook - ERROR - Error inserting data into the objects: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+
+2025-01-02 15:28:27,358 - jupyter_notebook - ERROR - Error inserting data into the objects: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+
+2025-01-02 15:28:27,358 - jupyter_notebook - ERROR - Error inserting data into the objects: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+
+2025-01-02 15:28:27,358 - jupyter_notebook - ERROR - Error inserting data into the objects: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+
+2025-01-02 15:28:27,358 - jupyter_notebook - ERROR - Error inserting data into the objects: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\3070700949.py", line 119, in <module>
+    c.execute("SELECT COUNT(*) FROM BMP2800")
+sqlite3.OperationalError: no such table: BMP2800
+
+2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
+2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
+2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
+2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
+2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
+2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
+2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range

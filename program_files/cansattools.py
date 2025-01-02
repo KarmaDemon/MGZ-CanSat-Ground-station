@@ -61,7 +61,7 @@ except ImportError:
     try:
         import program_files.classes as classes
     except ImportError:
-        logger.error("Error importing classes module")
+        logger.error("Error importing classes module", exc_info=True)
 
 try:
     import sqlite3
@@ -72,7 +72,7 @@ try:
     import numpy as np
     import random
 except ImportError as e:
-    logger.error(f"Error importing module: {e}")
+    logger.error(f"Error importing module: {e}", exc_info=True)
 
 def test_data_generator(current_data: int | float, upper_bound: int = 100, lower_bound: int = -100, dispersion: int = 10, is_time_data: bool = False, max_attempts: int = 100, default_value: int | float = 0) -> int | float | None:
     """
@@ -113,14 +113,14 @@ def test_data_generator(current_data: int | float, upper_bound: int = 100, lower
         elif data_type == float:
             current_data += random.uniform(-dispersion, dispersion)
         else:
-            logger.warning("Invalid data type: {}".format(data_type))
+            logger.warning("Invalid data type: {}".format(data_type), exc_info=True)
             return default_value
 
         if lower_bound <= current_data and current_data <= upper_bound:
             free_logger(logger)
             return current_data
 
-    logger.warning("Failed to generate a value within bounds after {} attempts for the current data: {}".format(max_attempts, current_data))
+    logger.warning("Failed to generate a value within bounds after {} attempts for the current data: {}".format(max_attempts, current_data), exc_info=True)
     free_logger(logger)
     return default_value
 
