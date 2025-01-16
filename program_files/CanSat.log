@@ -24384,3 +24384,1795 @@ sqlite3.OperationalError: no such table: BMP2800
 2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
 2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
 2025-01-02 15:28:30,839 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: list index out of range
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:51:46,583 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2088476329.py", line 17, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:52:43,047 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\2764987330.py", line 39, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-02 16:53:04,461 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47428\1966445101.py", line 36, in <module>
+    difference: float = bmp280[-1].temperature - float(official_temperatures[0][0])
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'float' object is not subscriptable
+
+2025-01-11 11:31:15,460 - jupyter_notebook - ERROR - Error visualizing data: name 'first_time_outlier' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_55588\926824055.py", line 19, in <module>
+    axs[0].plot([bmp.time], [bmp.temperature], 'o', color='green', label='Outlier' if first_time_outlier else '')
+                                                                                     ^^^^^^^^^^^^^^^^^^
+NameError: name 'first_time_outlier' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_55588\926824055.py", line 19, in <module>
+    axs[0].plot([bmp.time], [bmp.temperature], 'o', color='green', label='Outlier' if first_time_outlier else '')
+                                                                                     ^^^^^^^^^^^^^^^^^^
+NameError: name 'first_time_outlier' is not defined
+
+2025-01-11 13:06:49,955 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -114.63598903571665
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:49,966 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -97
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:50,846 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -138
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:51,437 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -143.19282309758648
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:51,967 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 125.28094220163683
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:53,642 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -52
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:53,709 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -73.15756739196482
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:53,841 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -124
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:53,854 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -252
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:53,966 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -242
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:54,010 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -49
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:54,835 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -35
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:54,852 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -2
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:55,285 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -232
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:55,507 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -104
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:56,703 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 132
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:57,296 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -88
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:58,601 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -117
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:59,452 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -211.34616983882205
+NoneType: None
+NoneType: None
+
+2025-01-11 13:06:59,459 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -8
+NoneType: None
+NoneType: None
+
+2025-01-11 13:07:02,522 - jupyter_notebook - ERROR - Error visualizing data: 'Axes' object has no attribute 'xlabel'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3481922371.py", line 9, in <module>
+    axs[0].xlabel('Time')
+    ^^^^^^^^^^^^^
+AttributeError: 'Axes' object has no attribute 'xlabel'. Did you mean: '_label'?
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3481922371.py", line 9, in <module>
+    axs[0].xlabel('Time')
+    ^^^^^^^^^^^^^
+AttributeError: 'Axes' object has no attribute 'xlabel'. Did you mean: '_label'?
+
+2025-01-11 13:07:05,805 - jupyter_notebook - ERROR - Error refining BMP280 data: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 17, in <module>
+    bmp.refine(previous_object=previous_bmp, outlier_step_threshold=18, outlier_iqr_multiplier=1.5, lacking_data_threshold=100)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 17, in <module>
+    bmp.refine(previous_object=previous_bmp, outlier_step_threshold=18, outlier_iqr_multiplier=1.5, lacking_data_threshold=100)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+
+2025-01-11 13:07:05,808 - jupyter_notebook - ERROR - Error refining DHT11 data: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 31, in <module>
+    dht.refine(previous_object=previous_dht, outlier_iqr_multiplier=1.5, lacking_data_threshold=100)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 31, in <module>
+    dht.refine(previous_object=previous_dht, outlier_iqr_multiplier=1.5, lacking_data_threshold=100)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+
+2025-01-11 13:07:05,817 - jupyter_notebook - ERROR - Error refining GPS data: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 41, in <module>
+    gps.refine(previous_object=previous_gps, outlier_iqr_multiplier=1.5, lacking_data_threshold=500)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 41, in <module>
+    gps.refine(previous_object=previous_gps, outlier_iqr_multiplier=1.5, lacking_data_threshold=500)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_iqr_multiplier'
+
+2025-01-11 13:07:05,827 - jupyter_notebook - ERROR - Error refining MPU6050 data: name 'mpu6050' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 49, in <module>
+    for i, mpu in enumerate(mpu6050[1:], start=1):
+                            ^^^^^^^
+NameError: name 'mpu6050' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\3855791291.py", line 49, in <module>
+    for i, mpu in enumerate(mpu6050[1:], start=1):
+                            ^^^^^^^
+NameError: name 'mpu6050' is not defined
+
+2025-01-11 13:14:16,660 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -19.704332830585184
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:16,845 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -30
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:17,412 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -51
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:20,297 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -49
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:20,485 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -1
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:21,388 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -39
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:24,059 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -42
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:27,203 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 120
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:29,431 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 149.6009596554955
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:30,432 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -17.89543431382574
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:30,440 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -244
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:30,554 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -223.89918424977182
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:30,667 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -262
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:30,812 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -30
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:30,825 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -21
+NoneType: None
+NoneType: None
+
+2025-01-11 13:14:40,117 - jupyter_notebook - ERROR - Error refining BMP280 data: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 17, in <module>
+    bmp.refine(previous_object=previous_bmp, outlier_step_threshold=18, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 17, in <module>
+    bmp.refine(previous_object=previous_bmp, outlier_step_threshold=18, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+
+2025-01-11 13:14:40,117 - jupyter_notebook - ERROR - Error refining BMP280 data: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 17, in <module>
+    bmp.refine(previous_object=previous_bmp, outlier_step_threshold=18, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 17, in <module>
+    bmp.refine(previous_object=previous_bmp, outlier_step_threshold=18, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+
+2025-01-11 13:14:40,126 - jupyter_notebook - ERROR - Error refining DHT11 data: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 31, in <module>
+    dht.refine(previous_object=previous_dht, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 31, in <module>
+    dht.refine(previous_object=previous_dht, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+
+2025-01-11 13:14:40,126 - jupyter_notebook - ERROR - Error refining DHT11 data: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 31, in <module>
+    dht.refine(previous_object=previous_dht, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 31, in <module>
+    dht.refine(previous_object=previous_dht, lacking_data_threshold=100)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+
+2025-01-11 13:14:40,133 - jupyter_notebook - ERROR - Error refining GPS data: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 41, in <module>
+    gps.refine(previous_object=previous_gps, lacking_data_threshold=500)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 41, in <module>
+    gps.refine(previous_object=previous_gps, lacking_data_threshold=500)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+
+2025-01-11 13:14:40,133 - jupyter_notebook - ERROR - Error refining GPS data: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 41, in <module>
+    gps.refine(previous_object=previous_gps, lacking_data_threshold=500)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4171580702.py", line 41, in <module>
+    gps.refine(previous_object=previous_gps, lacking_data_threshold=500)
+TypeError: Data.refine() missing 1 required positional argument: 'next_object'
+
+2025-01-11 13:24:03,980 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -1.2477857521438942
+NoneType: None
+NoneType: None
+
+2025-01-11 13:24:04,485 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -84
+NoneType: None
+NoneType: None
+
+2025-01-11 13:24:06,617 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 112.18142837752694
+NoneType: None
+NoneType: None
+
+2025-01-11 13:24:07,606 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 144.88808432844803
+NoneType: None
+NoneType: None
+
+2025-01-11 13:24:10,605 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -139
+NoneType: None
+NoneType: None
+
+2025-01-11 13:24:13,146 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -45.93089694228443
+NoneType: None
+NoneType: None
+
+2025-01-11 13:24:21,089 - jupyter_notebook - ERROR - Error refining BMP280 data: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4052818666.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4052818666.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+
+2025-01-11 13:24:21,089 - jupyter_notebook - ERROR - Error refining BMP280 data: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4052818666.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4052818666.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+
+2025-01-11 13:24:21,089 - jupyter_notebook - ERROR - Error refining BMP280 data: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4052818666.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57792\4052818666.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+
+2025-01-11 13:31:44,919 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -42.920688290376766
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:45,504 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -33.48992325105988
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:45,602 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -18
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:45,735 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -26
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:46,098 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -108
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:46,107 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -46
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:46,571 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -57
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:47,316 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -218
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:49,234 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -24
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:49,790 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -161.8679719558209
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:51,155 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -93
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:51,187 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 110
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:54,338 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -36
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:54,535 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -65
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:54,924 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -174.35116978063166
+NoneType: None
+NoneType: None
+
+2025-01-11 13:31:54,988 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -303
+NoneType: None
+NoneType: None
+
+2025-01-11 13:32:02,040 - jupyter_notebook - ERROR - Error refining BMP280 data: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_12708\2710277520.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_12708\2710277520.py", line 22, in <module>
+    next_bmp = bmp280[i+1]
+               ~~~~~~^^^^^
+IndexError: list index out of range
+
+2025-01-11 13:47:29,812 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -135.6333919766389
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:31,377 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -136
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:31,406 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -151
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:35,333 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -48
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:35,345 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -264
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:35,415 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 126.36550761834212
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:35,425 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -14
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:38,894 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -30
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:42,061 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 188.03578498857775
+NoneType: None
+NoneType: None
+
+2025-01-11 13:47:42,137 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 326
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:06,053 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -11.847361404012975
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:06,068 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -38
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:07,092 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -24.82145581739753
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:07,595 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -35
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:08,017 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -189
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:08,021 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -282
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:08,589 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -23
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:08,605 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -5
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:09,142 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -50
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:09,768 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -127.8614548575975
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:13,176 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -199
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:13,350 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 141
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:13,825 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -180.1460002038644
+NoneType: None
+NoneType: None
+
+2025-01-11 13:56:13,943 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 212.99666703971553
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:43,832 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -24.307465835048532
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:44,059 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -35
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:44,641 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -48
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:46,582 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -58
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:46,946 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -159.94651193653743
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:51,845 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 145.87555075821618
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:55,624 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -148.48484938064414
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:55,643 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -217
+NoneType: None
+NoneType: None
+
+2025-01-11 13:58:56,474 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -169.5032691899338
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:08,142 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -68.99132251202343
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:08,207 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -31
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:08,335 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -262
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:08,343 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -60
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:09,322 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 132.0202661327545
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:13,588 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -122
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:14,175 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -69
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:14,225 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -76
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:16,890 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -39
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:17,187 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -99
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:17,624 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -129.32266690943902
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:17,741 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -189
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:18,181 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -228
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:18,194 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -183
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:18,750 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -289.9313443698296
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:18,756 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -100
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:18,791 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -80
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:18,801 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -180
+NoneType: None
+NoneType: None
+
+2025-01-11 22:24:18,819 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -142
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:25,677 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -26.76254672430258
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:25,684 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -25
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:25,735 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -51
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:25,841 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -14
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:29,730 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 159.55700286064936
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:32,414 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -53.24381531462089
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:33,167 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -139.7028854037992
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:34,484 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -85
+NoneType: None
+NoneType: None
+
+2025-01-11 22:30:34,683 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -179.3232252764147
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:26,546 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -142.73526315122044
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:28,080 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 121.92279173857172
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:31,128 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -149.44214024870257
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:33,137 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 176.6652371389373
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:33,151 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -47
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:36,190 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 129
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:36,454 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -201.7195945477663
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:36,495 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -56
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:36,503 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -175
+NoneType: None
+NoneType: None
+
+2025-01-11 22:45:36,548 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -165
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:34,705 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 128.70748799932454
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:34,747 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -203.27961116535437
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:34,769 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -209
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:34,782 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -85
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:35,915 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -119
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:35,924 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -100
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:37,991 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -187
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:38,538 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -41.21330600988921
+NoneType: None
+NoneType: None
+
+2025-01-11 22:47:42,865 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 378.2312438234791
+NoneType: None
+NoneType: None
+
+2025-01-11 22:48:25,635 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 165.75718344352958
+NoneType: None
+NoneType: None
+
+2025-01-11 22:48:25,659 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -44
+NoneType: None
+NoneType: None
+
+2025-01-11 22:48:25,677 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -33
+NoneType: None
+NoneType: None
+
+2025-01-11 22:48:26,035 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -10
+NoneType: None
+NoneType: None
+
+2025-01-11 22:48:29,505 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -127.64924443400879
+NoneType: None
+NoneType: None
+
+2025-01-11 22:48:33,391 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -51.42490935500803
+NoneType: None
+NoneType: None
+
+2025-01-11 22:50:53,914 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 132.979074651184
+NoneType: None
+NoneType: None
+
+2025-01-11 22:50:56,538 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 171.86326347798465
+NoneType: None
+NoneType: None
+
+2025-01-11 22:50:56,797 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -18
+NoneType: None
+NoneType: None
+
+2025-01-11 22:50:56,830 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -46
+NoneType: None
+NoneType: None
+
+2025-01-11 22:50:57,015 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -37
+NoneType: None
+NoneType: None
+
+2025-01-11 22:50:57,277 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -12
+NoneType: None
+NoneType: None
+
+2025-01-11 22:50:57,635 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -44
+NoneType: None
+NoneType: None
+
+2025-01-11 22:51:00,123 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -115.97592820917357
+NoneType: None
+NoneType: None
+
+2025-01-12 16:32:12,174 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 146.32328210092615
+NoneType: None
+NoneType: None
+
+2025-01-12 16:32:19,120 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 101.80323281333474
+NoneType: None
+NoneType: None
+
+2025-01-12 16:32:19,169 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 134
+NoneType: None
+NoneType: None
+
+2025-01-12 16:32:19,194 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -64
+NoneType: None
+NoneType: None
+
+2025-01-12 16:32:19,272 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -23
+NoneType: None
+NoneType: None
+
+2025-01-12 16:32:20,365 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -65
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:05,296 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 116.67924955848552
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:05,733 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -68
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:06,830 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -19
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:10,194 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 163.9215101051661
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:10,861 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 140
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:11,282 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -317.62328188014953
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:11,344 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -18
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:12,204 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -60
+NoneType: None
+NoneType: None
+
+2025-01-12 16:33:12,377 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -200.8219332056939
+NoneType: None
+NoneType: None
+
+2025-01-12 16:35:39,587 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -5.393876397815945
+NoneType: None
+NoneType: None
+
+2025-01-12 16:35:39,980 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 164.07759357948058
+NoneType: None
+NoneType: None
+
+2025-01-12 16:35:40,177 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -32
+NoneType: None
+NoneType: None
+
+2025-01-12 16:35:41,797 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -121
+NoneType: None
+NoneType: None
+
+2025-01-12 16:35:43,143 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 156
+NoneType: None
+NoneType: None
+
+2025-01-12 16:35:44,900 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -89.82994288105448
+NoneType: None
+NoneType: None
+
+2025-01-12 16:35:46,638 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 263.3076807620238
+NoneType: None
+NoneType: None
+
+2025-01-12 16:37:11,937 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 111.11556836066933
+NoneType: None
+NoneType: None
+
+2025-01-12 16:37:11,982 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -48
+NoneType: None
+NoneType: None
+
+2025-01-12 16:37:12,674 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -108.4994100552464
+NoneType: None
+NoneType: None
+
+2025-01-12 16:37:15,393 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -19
+NoneType: None
+NoneType: None
+
+2025-01-12 16:37:18,650 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -83
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:11,040 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -12.808186358425697
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:11,228 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 151.80226221609706
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:11,938 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -25
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:12,791 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -62
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:12,906 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -19
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:12,923 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -68
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:13,329 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 127.10378687895368
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:13,641 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -143
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:13,930 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 170
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:14,003 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -48
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:14,003 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -13
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:14,034 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -36
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:17,383 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 134
+NoneType: None
+NoneType: None
+
+2025-01-12 16:38:17,402 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -34
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:04,842 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -43.51863089770703
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:06,757 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 125.05052753383308
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:07,069 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -26
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:07,794 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -201.84742570693223
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:08,161 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -262
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:08,281 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -146
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:08,311 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -126
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:08,320 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -31
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:08,327 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -97
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:09,167 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -198
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:09,175 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -71
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:10,646 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -94
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:10,907 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -59
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:11,025 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -30
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:11,104 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -80
+NoneType: None
+NoneType: None
+
+2025-01-12 16:39:12,319 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 107.71180227899943
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:09,247 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -7.682140431156423
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:11,230 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 134.94661384163481
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:14,061 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -40
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:14,351 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -18
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:14,464 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -32
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:15,024 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -11
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:15,954 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 143
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:16,445 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -23
+NoneType: None
+NoneType: None
+
+2025-01-12 16:40:16,604 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 144.6469809561608
+NoneType: None
+NoneType: None
+
+2025-01-16 18:03:57,188 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -50.05378185754637
+NoneType: None
+NoneType: None
+
+2025-01-16 18:03:57,386 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -12
+NoneType: None
+NoneType: None
+
+2025-01-16 18:03:57,430 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -29
+NoneType: None
+NoneType: None
+
+2025-01-16 18:03:59,292 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 151.73956608938929
+NoneType: None
+NoneType: None
+
+2025-01-16 18:04:04,376 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -228.11211275019943
+NoneType: None
+NoneType: None
+
+2025-01-16 18:04:10,286 - jupyter_notebook - ERROR - Error refining BMP280 data: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\121391691.py", line 18, in <module>
+    bmp.refine(previous_bmp, next_bmp, outlier_step_threshold=19, lacking_data_threshold=19)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\121391691.py", line 18, in <module>
+    bmp.refine(previous_bmp, next_bmp, outlier_step_threshold=19, lacking_data_threshold=19)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+
+2025-01-16 18:04:10,289 - jupyter_notebook - ERROR - Error refining DHT11 data: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\121391691.py", line 34, in <module>
+    dht.refine(previous_dht, next_dht, outlier_step_threshold=5, lacking_data_threshold=5)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\121391691.py", line 34, in <module>
+    dht.refine(previous_dht, next_dht, outlier_step_threshold=5, lacking_data_threshold=5)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+
+2025-01-16 18:04:10,293 - jupyter_notebook - ERROR - Error refining GPS data: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\121391691.py", line 45, in <module>
+    gps.refine(previous_gps, next_gps, outlier_step_threshold=18, lacking_data_threshold=350)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\121391691.py", line 45, in <module>
+    gps.refine(previous_gps, next_gps, outlier_step_threshold=18, lacking_data_threshold=350)
+TypeError: Data.refine() got an unexpected keyword argument 'outlier_step_threshold'
+
+2025-01-16 18:04:10,369 - jupyter_notebook - ERROR - Error visualizing data: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\306714771.py", line 6, in <module>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\306714771.py", line 6, in <genexpr>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                                             ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\306714771.py", line 6, in <module>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\306714771.py", line 6, in <genexpr>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                                             ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+
+2025-01-16 18:04:12,109 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_50752\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+
+2025-01-16 18:07:00,448 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 128.48162756724204
+NoneType: None
+NoneType: None
+
+2025-01-16 18:07:00,990 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -36.1921192996268
+NoneType: None
+NoneType: None
+
+2025-01-16 18:07:02,908 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 191
+NoneType: None
+NoneType: None
+
+2025-01-16 18:07:04,883 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 194.64494267229122
+NoneType: None
+NoneType: None
+
+2025-01-16 18:07:04,948 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 160
+NoneType: None
+NoneType: None
+
+2025-01-16 18:07:11,440 - classes - ERROR - Previous object is not an instance of Data
+NoneType: None
+NoneType: None
+
+2025-01-16 18:07:11,445 - jupyter_notebook - ERROR - Error inserting BMP280 data into the database: table BMP280 has no column named IsHeightOutlier
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\4012898866.py", line 19, in <module>
+    bmp.insert_into_db("BMP280", c)
+  File "c:\Users\Siket Arnold Ádám\Desktop\CanSat\program_files\classes.py", line 151, in insert_into_db
+    c.execute(f"INSERT INTO {table_name} (Time, Temperature, Pressure, Height, Speed, Acceleration, MissingData, IsTemperatureOutlier, IsPressureOutlier, IsHeightOutlier, IsSpeedOutlier, IsAccelerationOutlier) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+sqlite3.OperationalError: table BMP280 has no column named IsHeightOutlier
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\4012898866.py", line 19, in <module>
+    bmp.insert_into_db("BMP280", c)
+  File "c:\Users\Siket Arnold Ádám\Desktop\CanSat\program_files\classes.py", line 151, in insert_into_db
+    c.execute(f"INSERT INTO {table_name} (Time, Temperature, Pressure, Height, Speed, Acceleration, MissingData, IsTemperatureOutlier, IsPressureOutlier, IsHeightOutlier, IsSpeedOutlier, IsAccelerationOutlier) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+sqlite3.OperationalError: table BMP280 has no column named IsHeightOutlier
+
+2025-01-16 18:07:20,595 - jupyter_notebook - ERROR - Error visualizing data: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\306714771.py", line 6, in <module>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\306714771.py", line 6, in <genexpr>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                                             ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\306714771.py", line 6, in <module>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\306714771.py", line 6, in <genexpr>
+    print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
+                                                             ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+
+2025-01-16 18:07:23,928 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_59096\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+
+2025-01-16 18:10:29,088 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -157.13496970216914
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:32,582 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -84
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:35,321 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -191
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:36,074 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -42.475017388100945
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:36,367 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -221
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:36,992 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -20
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:37,270 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -160.48964040775644
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:37,354 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -193
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:39,746 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -116
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:40,655 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -110.83897038323973
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:40,803 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -70
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:41,365 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -138.7599469106641
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:41,388 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -225
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:41,422 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -89
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:41,435 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -61
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:41,456 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -154
+NoneType: None
+NoneType: None
+
+2025-01-16 18:10:49,865 - classes - ERROR - Previous object is not an instance of Data
+NoneType: None
+NoneType: None
+
+2025-01-16 18:11:13,042 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_52160\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_52160\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+
+2025-01-16 18:13:58,789 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 122.23156766311814
+NoneType: None
+NoneType: None
+
+2025-01-16 18:14:20,672 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57700\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_57700\3354809907.py", line 16, in <module>
+    ax.plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.temperature for bmp in bmp280 if not bmp.is_outlier], '-', color='green', label='BMP280')
+                                               ^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_outlier'
+
+2025-01-16 18:30:47,548 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 137.9985933388545
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:47,630 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -33.68208696721689
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:50,742 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -58
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:51,410 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -33
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:51,410 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -118
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:51,607 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -79
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:51,765 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -55
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:51,773 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -35
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:53,642 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 111.79076223452385
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:53,924 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -31
+NoneType: None
+NoneType: None
+
+2025-01-16 18:30:56,457 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -77
+NoneType: None
+NoneType: None
+
+2025-01-16 18:31:16,233 - jupyter_notebook - ERROR - Error generating conclusions: 'BMP280' object has no attribute 'is_altitude_outlier'
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_21972\1300216902.py", line 22, in <module>
+    avg_pressure = np.mean([bmp.pressure for bmp in bmp280 if not bmp.is_altitude_outlier])
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_altitude_outlier'. Did you mean: 'is_pressure_outlier'?
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_21972\1300216902.py", line 22, in <module>
+    avg_pressure = np.mean([bmp.pressure for bmp in bmp280 if not bmp.is_altitude_outlier])
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BMP280' object has no attribute 'is_altitude_outlier'. Did you mean: 'is_pressure_outlier'?
+

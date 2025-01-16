@@ -170,15 +170,23 @@ def create_db(database_name: str = "raw_data.db", replace_mode: bool = False) ->
                     Temperature REAL, 
                     Pressure REAL,
                     Height REAL,
+                    Speed REAL,
+                    Acceleration REAL,
                     MissingData BOOLEAN,
-                    IsOutlier BOOLEAN)""")
+                    IsTemperatureOutlier BOOLEAN,
+                    IsPressureOutlier BOOLEAN,
+                    IsHeightOutlier BOOLEAN,
+                    IsSpeedOutlier BOOLEAN,
+                    IsAccelerationOutlier BOOLEAN)""")
         
     cursor.execute("""CREATE TABLE IF NOT EXISTS DHT11 (
                     Id INTEGER PRIMARY KEY, 
                     Time INTEGER, 
                     Humidity REAL,
+                    Temperature REAL,
                     MissingData BOOLEAN,
-                    IsOutlier BOOLEAN)""")
+                    IsHumidityOutlier BOOLEAN,
+                    IsTemperatureOutlier BOOLEAN)""")
         
     cursor.execute("""CREATE TABLE IF NOT EXISTS GPS (
                    Id INTEGER PRIMARY KEY, 
@@ -187,14 +195,10 @@ def create_db(database_name: str = "raw_data.db", replace_mode: bool = False) ->
                    Longitude REAL,
                    Altitude REAL,
                    MissingData BOOLEAN,
-                   IsOutlier BOOLEAN)""")
-    
-    cursor.execute("""CREATE TABLE IF NOT EXISTS MPU6050 (
-                   Id INTEGER PRIMARY KEY, 
-                   Time INTEGER, 
-                   Acceleration REAL,
-                   MissingData BOOLEAN,
-                   IsOutlier BOOLEAN)""")
+                   IsLatitudeOutlier BOOLEAN,
+                   IsLongitudeOutlier BOOLEAN,
+                   IsAltitudeOutlier BOOLEAN)""")
+
     try:
         conn.commit()
     except Error as e:
@@ -293,7 +297,7 @@ def get_official_data(website_link: str = "https://koponyeg.hu/elorejelzes/Tat%C
     free_logger(logger)
     return official_datas
 
-def refine_data(objects: list[classes.BMP280 | classes.MPU6050 | classes.GPS | classes.DHT11], attribute_name: str, outlier_iqr_multiplier=1.5, lacking_data_threshold=10) -> tuple[list[float], list[int]]:
+def refine_data(objects: list[classes.BMP280 | classes.GPS | classes.DHT11], attribute_name: str, outlier_iqr_multiplier=1.5, lacking_data_threshold=10) -> tuple[list[float], list[int]]:
     """
     Refine data by removing outliers and detecting lacking data.
 

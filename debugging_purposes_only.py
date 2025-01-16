@@ -353,7 +353,7 @@ if not ONLY_ANALYZIS_MODE:
         logger.error(f"Error committing changes to the database: {e}")
 
 try:
-    first_time = True
+    first_time_missing_data = True
     if len(bmp280) > 0:
         print("Number of missing data points: ", sum(1 for bmp in bmp280 if bmp.missing_data))
         print("Number of outliers: ", sum(1 for bmp in bmp280 if bmp.is_outlier))
@@ -367,10 +367,10 @@ try:
         axs[0].set_title('BMP280 Refined Temperature Data')
         for i, bmp in enumerate(bmp280[1:], start=1):
             if bmp.missing_data:
-                axs[0].plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].temperature, bmp.temperature], '-', color='red', label='Likely data loss' if first_time else '') 
-                first_time = False
+                axs[0].plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].temperature, bmp.temperature], '-', color='red', label='Likely data loss' if first_time_missing_data else '') 
+                first_time_missing_data = False
         axs[0].legend()
-        first_time = True
+        first_time_missing_data = True
 
         axs[1].plot([bmp.time for bmp in bmp280 if not bmp.is_outlier], [bmp.pressure for bmp in bmp280 if not bmp.is_outlier], '-')
         axs[1].set_xlabel('Time')
@@ -378,10 +378,10 @@ try:
         axs[1].set_title('BMP280 Refined Pressure Data')
         for i, bmp in enumerate(bmp280[1:], start=1):
             if bmp.missing_data:
-                axs[1].plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].pressure, bmp.pressure], '-', color='red', label='Likely data loss' if first_time else '') 
-                first_time = False
+                axs[1].plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].pressure, bmp.pressure], '-', color='red', label='Likely data loss' if first_time_missing_data else '') 
+                first_time_missing_data = False
         axs[1].legend()
-        first_time = True
+        first_time_missing_data = True
         first_time_outlier = True
 
         # Visualize height data(comparing bmp280 and gps with different colors)
@@ -392,10 +392,10 @@ try:
         axs[2].set_title('BMP280 and GPS Height Data in Comparison')
         for i, bmp in enumerate(bmp280[1:], start=1):
             if bmp.missing_data:
-                axs[2].plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].height, bmp.height], '-', color='red', label='Likely data loss' if first_time else '') 
-                first_time = False
+                axs[2].plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].height, bmp.height], '-', color='red', label='Likely data loss' if first_time_missing_data else '') 
+                first_time_missing_data = False
             if bmp.is_outlier:
-                axs[2].plot([bmp.time], [bmp.height], 'o', color='green', label='Outlier' if first_time else '') 
+                axs[2].plot([bmp.time], [bmp.height], 'o', color='green', label='Outlier' if first_time_missing_data else '') 
                 first_time_outlier = False
         for i, gps in enumerate(gpses[1:], start=1):
             if gps.missing_data:
@@ -434,11 +434,11 @@ try:
     ax.set_xlabel('Time')
     ax.set_ylabel('Temperature')
     ax.set_title('BMP280 and Official Temperatures in Comparison')
-    first_time = True
+    first_time_missing_data = True
     for i, bmp in enumerate(bmp280[1:], start=1):
         if bmp.missing_data:
-            ax.plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].temperature, bmp.temperature], '-', color='red', label='Likely data loss' if first_time else '') 
-            first_time = False
+            ax.plot([bmp280[i-1].time, bmp.time], [bmp280[i-1].temperature, bmp.temperature], '-', color='red', label='Likely data loss' if first_time_missing_data else '') 
+            first_time_missing_data = False
     ax.legend()
     plt.tight_layout()
     try:
@@ -498,7 +498,7 @@ if TEST_DATA_MODE:
     average_wind_speed = 10
 
 try:
-    first_time = True
+    first_time_missing_data = True
     first_time_outlier = True
     if len(gpses) > 0:
         print("Number of missing data points: ", sum(1 for gps in gpses if gps.missing_data))
@@ -547,8 +547,8 @@ try:
 
         for i, gps in enumerate(gpses[1:], start=1):
             if gps.missing_data:
-                ax.plot([gpses[i-1].latitude, gps.latitude], [gpses[i-1].longitude, gps.longitude], [gpses[i-1].altitude, gps.altitude], '-', color='red', label='Likely data loss' if first_time else '')
-                first_time = False
+                ax.plot([gpses[i-1].latitude, gps.latitude], [gpses[i-1].longitude, gps.longitude], [gpses[i-1].altitude, gps.altitude], '-', color='red', label='Likely data loss' if first_time_missing_data else '')
+                first_time_missing_data = False
             if gps.is_outlier:
                 ax.plot([gps.latitude], [gps.longitude], [gps.altitude], 'o', color='black', label='Outlier' if first_time_outlier else '')
                 first_time_outlier = False

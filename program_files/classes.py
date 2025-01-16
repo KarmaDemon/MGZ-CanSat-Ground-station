@@ -17,9 +17,8 @@ except ImportError as e:
     logger.error(f"Error importing module: {e}")
 
 class Data:
-    def __init__(self, missing_data: bool = False, is_outlier: bool = False) -> None:
+    def __init__(self, missing_data: bool = False) -> None:
         self.missing_data = missing_data # Flag to indicate if object is missing before this object
-        self.is_outlier = is_outlier
 
     @staticmethod
     def read_from_db_all(db_name: str, table_name: str, index: int = None) -> list[tuple]:
@@ -64,58 +63,96 @@ class Data:
         except Error as e:
             logger.error(f"Error fetching data: {e}")
 
-    def refine(self, previous_object, outlier_iqr_multiplier: float = 1.5, outlier_step_threshold: int = 10, lacking_data_threshold: int = 10) -> None:
-        """
-        Refines data by removing outliers and detecting lacking data.
-
-        This function takes a Data object and the previous Data object as arguments.
-        It checks for lacking data by identifying larger differences between timestamps.
-        Then, it removes outliers using the IQR method.
-
-        :param previous_object: The previous Data object.
-        :param outlier_iqr_multiplier: The multiplier for the IQR method. Defaults to 1.5.
-        :param lacking_data_threshold: The threshold for detecting lacking data. Defaults to 10.
-        :return: None
-        """
+    def refine(self, previous_object, next_object, outlier_threshold: int = 10, lacking_data_threshold: int = None, attribute_name: str = None) -> None:
+        
         if previous_object is None:
-            logger.error("Previous object is None")
+            logger.error("Previous object is not an instance of Data", exc_info=True)
+            free_logger(logger)
+            return
+        if next_object is None:
+            logger.error("Next object is not an instance of Data", exc_info=True)
             free_logger(logger)
             return
         try:
-            for attribute_name, attribute_value in vars(self).items():
-                if attribute_name != "time":
-                    timestamp = abs(self.time ^ previous_object.time)
-                    data = attribute_value
-                    previous_data = previous_object.__dict__[attribute_name]
-
-                    # Detect lacking data by larger differences between timestamps
-                    if timestamp > lacking_data_threshold:
-                        self.missing_data = True
-
-                    # Remove outliers statically
-                    if not self.missing_data:
-                        if data is not None and data < previous_data-outlier_step_threshold or data > previous_data+outlier_step_threshold:
-                            self.is_outlier = True
-
-                    # Remove outliers using the IQR method
-                    if attribute_name in previous_object.__dict__:
-                        lower_bound = min(data, previous_data)
-                        upper_bound = max(data, previous_data)
-                        iqr = upper_bound - lower_bound
-                        if data is not None and data < lower_bound - outlier_iqr_multiplier * iqr or data > upper_bound + outlier_iqr_multiplier * iqr:
-                            self.is_outlier = True
+            if lacking_data_threshold is not None:
+                timestamp = abs(self.time - previous_object.time)
+                if timestamp > lacking_data_threshold:
+                            self.missing_data = True
+            if attribute_name is None:
+                # Detect outliers by comparing the current data with the previous and next data
+                for attribute_name, attribute_value in vars(self).items():
+                    if attribute_name != "time":
+                        previous_data = previous_object.__dict__[attribute_name]
+                        next_data = next_object.__dict__[attribute_name] if next_object is not None else None
+                        outlier_attribute_name = f"is_{attribute_name}_outlier"
+                        if previous_data is not None and next_data is not None:
+                            if attribute_value > previous_data and attribute_value > next_data:
+                                if attribute_value > next_data + outlier_threshold or attribute_value > previous_data + outlier_threshold:
+                                    setattr(self, outlier_attribute_name, True)
+                            if attribute_value < previous_data and attribute_value < next_data:
+                                if attribute_value < next_data - outlier_threshold or attribute_value < previous_data - outlier_threshold:
+                                    setattr(self, outlier_attribute_name, True)
+            else:
+                attribute_value = self.__dict__[attribute_name]
+                previous_data = previous_object.__dict__[attribute_name]
+                next_data = next_object.__dict__[attribute_name] if next_object is not None else None
+                outlier_attribute_name = f"is_{attribute_name}_outlier"
+                if previous_data is not None and next_data is not None:
+                    if attribute_value > previous_data and attribute_value > next_data:
+                        if attribute_value > next_data + outlier_threshold or attribute_value > previous_data + outlier_threshold:
+                            setattr(self, outlier_attribute_name, True)
+                    if attribute_value < previous_data and attribute_value < next_data:
+                        if attribute_value < next_data - outlier_threshold or attribute_value < previous_data - outlier_threshold:
+                            setattr(self, outlier_attribute_name, True)
         except Exception as e:
-            logger.error(f"Error during refinement: {e}")
+            logger.error(f"Error during refinement: {e}", exc_info=True)
             free_logger(logger)
-            return
 
 class BMP280(Data):
-    def __init__(self, time: int, temperature: int, pressure: float, height: float):
+    def __init__(self, time: int, temperature: float, pressure: float, height: float, speed: float, acceleration: float, temperature_outlier: bool = False, pressure_outlier: bool = False, height_outlier: bool = False, speed_outlier: bool = False, acceleration_outlier: bool = False) -> None:
         self.time = time
         self.temperature = temperature
         self.pressure = pressure
         self.height = height
+        self.speed = speed
+        self.acceleration = acceleration
+        self.is_temperature_outlier = temperature_outlier
+        self.is_pressure_outlier = pressure_outlier
+        self.is_height_outlier = height_outlier
+        self.is_speed_outlier = speed_outlier
+        self.is_acceleration_outlier = acceleration_outlier
         super().__init__()
+
+    def calculate_speed(self, previous_object) -> None:
+        """
+        Calculate the speed of the object based on the height difference and time difference with the previous object.
+
+        Args:
+            previous_object (Data): The previous object with which the speed will be calculated.
+
+        Raises:
+            TypeError: If the previous object is not an instance of Data.
+        """
+
+        if previous_object is not None and self.time != previous_object.time:
+            self.speed = abs(self.height - previous_object.height) / (self.time - previous_object.time)
+        else:
+            self.speed = 0
+    
+    def calculate_acceleration(self, previous_object) -> None:
+        """
+        Calculate the acceleration of the object based on the speed difference and time difference with the previous object.
+
+        Args:
+            previous_object (Data): The previous object with which the acceleration will be calculated.
+
+        Raises:
+            TypeError: If the previous object is not an instance of Data.
+        """
+        if previous_object is not None and self.time != previous_object.time:
+            self.acceleration = abs(self.speed - previous_object.speed) / (self.time - previous_object.time)
+        else:
+            self.acceleration = 0
 
     def insert_into_db(self, table_name: str = "BMP280", c: sqlite3.Cursor = None) -> None:
         """
@@ -125,13 +162,16 @@ class BMP280(Data):
         :param table_name: The name of the table to use. Defaults to "BMP280".
         :return: None
         """
-        c.execute(f"INSERT INTO {table_name} (Time, Temperature, Pressure, Height, MissingData, IsOutlier) VALUES (?, ?, ?, ?, ?, ?)",
-                    (self.time, self.temperature, self.pressure, self.height, 1 if self.missing_data else 0, 1 if self.is_outlier else 0)) # (self.missing_data, self.is_outlier))
+        c.execute(f"INSERT INTO {table_name} (Time, Temperature, Pressure, Height, Speed, Acceleration, MissingData, IsTemperatureOutlier, IsPressureOutlier, IsHeightOutlier, IsSpeedOutlier, IsAccelerationOutlier) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                    (self.time, self.temperature, self.pressure, self.height, self.speed, self.acceleration, 1 if self.missing_data else 0, 1 if self.is_temperature_outlier else 0, 1 if self.is_pressure_outlier else 0, 1 if self.is_height_outlier else 0, 1 if self.is_speed_outlier else 0, 1 if self.is_acceleration_outlier else 0))
 
 class DHT11(Data):
-    def __init__(self, time: int, humidity: float):
+    def __init__(self, time: int, humidity: float, temperature: float, humidity_outlier: bool = False, temperature_outlier: bool = False) -> None:
         self.time = time
         self.humidity = humidity
+        self.temperature = temperature
+        self.is_humidity_outlier = humidity_outlier
+        self.is_temperature_outlier = temperature_outlier
         super().__init__()
 
     def insert_into_db(self, table_name: str = "DHT11", c: sqlite3.Cursor = None):
@@ -142,15 +182,18 @@ class DHT11(Data):
         :param table_name: The name of the table to use. Defaults to "DHT11".
         :return: None
         """
-        c.execute(f"INSERT INTO {table_name} (Time, Humidity, MissingData, IsOutlier) VALUES (?, ?, ?, ?)",
-                    (self.time, self.humidity, 1 if self.missing_data else 0, 1 if self.is_outlier else 0)) # (self.missing_data, self.is_outlier))
+        c.execute(f"INSERT INTO {table_name} (Time, Humidity, Temperature, MissingData, IsHumidityOutlier, IsTemperatureOutlier) VALUES (?, ?, ?, ?, ?, ?)",
+                    (self.time, self.humidity, self.temperature, 1 if self.missing_data else 0, 1 if self.is_humidity_outlier else 0, 1 if self.is_temperature_outlier else 0))
 
 class GPS(Data):
-    def __init__(self, time: int, latitude: float, longitude: float, altitude: float) -> None:
+    def __init__(self, time: int, latitude: float, longitude: float, altitude: float, latitude_outlier: bool = False, longitude_outlier: bool = False, altitude_outlier: bool = False) -> None:
         self.time = time
         self.latitude = latitude
         self.longitude = longitude
         self.altitude = altitude
+        self.is_latitude_outlier = latitude_outlier
+        self.is_longitude_outlier = longitude_outlier
+        self.is_altitude_outlier = altitude_outlier
         super().__init__()
 
     def insert_into_db(self, table_name: str = "GPS", c: sqlite3.Cursor = None):
@@ -161,27 +204,5 @@ class GPS(Data):
         :param table_name: The name of the table to use. Defaults to "GPS".
         :return: None
         """
-        c.execute(f"INSERT INTO {table_name} (Time, Latitude, Longitude, Altitude, MissingData, IsOutlier) VALUES (?, ?, ?, ?, ?, ?)",
-                    (self.time, self.latitude, self.longitude, self.altitude, 1 if self.missing_data else 0, 1 if self.is_outlier else 0)) # (self.missing_data, self.is_outlier))
-
-class MPU6050(Data):
-    def __init__(self, time: int, accelerometer_x: float, accelerometer_y: float, accelerometer_z: float, gyroscope_x: float, gyroscope_y: float, gyroscope_z: float) -> None:
-        self.time = time
-        self.accelerometer_x = accelerometer_x
-        self.accelerometer_y = accelerometer_y
-        self.accelerometer_z = accelerometer_z
-        self.gyroscope_x = gyroscope_x
-        self.gyroscope_y = gyroscope_y
-        self.gyroscope_z = gyroscope_z
-        super().__init__()
-
-    def insert_into_db(self, table_name: str = "MPU6050", c: sqlite3.Cursor = None):
-        """
-        Inserts the data into the specified SQLite database.
-
-        :param db_name: The name of the SQLite database to use.
-        :param table_name: The name of the table to use. Defaults to "MPU6050".
-        :return: None
-        """
-        c.execute(f"INSERT INTO {table_name} (Time, Accelerometer_X, Accelerometer_Y, Accelerometer_Z, Gyroscope_X, Gyroscope_Y, Gyroscope_Z, MissingData, IsOutlier) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                    (self.time, self.accelerometer_x, self.accelerometer_y, self.accelerometer_z, self.gyroscope_x, self.gyroscope_y, self.gyroscope_z, 1 if self.missing_data else 0, 1 if self.is_outlier else 0)) # (self.missing_data, self.is_outlier))
+        c.execute(f"INSERT INTO {table_name} (Time, Latitude, Longitude, Altitude, MissingData, IsLatitudeOutlier, IsLongitudeOutlier, IsAltitudeOutlier) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                    (self.time, self.latitude, self.longitude, self.altitude, 1 if self.missing_data else 0, 1 if self.is_latitude_outlier else 0, 1 if self.is_longitude_outlier else 0, 1 if self.is_altitude_outlier else 0))
