@@ -71,6 +71,8 @@ try:
     from bs4 import BeautifulSoup
     import numpy as np
     import random
+    import pickle
+    import matplotlib.pyplot as plt
 except ImportError as e:
     logger.error(f"Error importing module: {e}", exc_info=True)
 
@@ -349,6 +351,20 @@ def refine_data(objects: list[classes.BMP280 | classes.GPS | classes.DHT11], att
     #freeing up file handler
     free_logger(logger)
     return refined_data, lacking_data_indices
+
+def save_graph(fig: plt.Figure, graph_name: str) -> None:
+    logger = logger_creator("save_graph")
+    try:
+        if os.path.exists(f"graphs/pngs/{graph_name}.png"):
+            os.remove(f'graphs/pngs/{graph_name}.png')
+        plt.savefig(f'graphs/pngs/{graph_name}.png', format='png')
+        with open(f'graphs/pkls/{graph_name}.pkl', 'wb') as file:
+            pickle.dump(fig, file)
+    except Exception as e:
+        logger.error(f"Error saving the graph data: {e}", exc_info=True)
+
+    #freeing up file handler
+    free_logger(logger)
 
 if __name__ == "__main__":
     #txt_to_db(test_mode=True, replace_mode=True)

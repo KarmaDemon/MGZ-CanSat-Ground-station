@@ -26176,3 +26176,756 @@ Traceback (most recent call last):
                                                                   ^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'BMP280' object has no attribute 'is_altitude_outlier'. Did you mean: 'is_pressure_outlier'?
 
+2025-01-16 18:39:32,376 - CanSat_real_time - ERROR - Error opening serial port: could not open port '/dev/ttyUSB0': FileNotFoundError(2, 'A rendszer nem tal�lja a megadott el�r�si utat.', None, 3)
+2025-01-16 18:40:42,613 - CanSat_real_time - ERROR - Error opening serial port: could not open port '/dev/ttyUSB0': FileNotFoundError(2, 'A rendszer nem tal�lja a megadott el�r�si utat.', None, 3)
+2025-01-16 18:44:10,990 - CanSat_real_time - ERROR - Error opening serial port: could not open port 'COM3': PermissionError(13, 'A hozz�f�r�s megtagadva.', None, 5)
+2025-01-16 18:45:34,511 - CanSat_real_time - ERROR - Error opening serial port: could not open port 'COM3': PermissionError(13, 'A hozz�f�r�s megtagadva.', None, 5)
+2025-01-16 21:03:43,931 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 126.23315677581049
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:46,174 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -64.03406485569764
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:46,308 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -58
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:46,552 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -60
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:47,005 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -81
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:47,034 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -63
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:48,364 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -94
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:49,775 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -145.39011712808073
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:50,334 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -81
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:50,504 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -6.381889864308484
+NoneType: None
+NoneType: None
+
+2025-01-16 21:03:50,521 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -161
+NoneType: None
+NoneType: None
+
+2025-01-17 11:51:45,976 - CanSat_real_time - ERROR - Error opening serial port: could not open port 'COM3': PermissionError(13, 'A hozz�f�r�s megtagadva.', None, 5)
+2025-01-17 13:39:53,326 - CanSat_real_time - ERROR - Error opening serial port: could not open port 'COM3': PermissionError(13, 'A hozz�f�r�s megtagadva.', None, 5)
+Traceback (most recent call last):
+  File "c:\Users\Siket Arnold �d�m\Desktop\CanSat\CanSat_real_time.py", line 31, in <module>
+    ser = serial.Serial(SERIAL_PORT,BAUD_RATE)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold �d�m\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\Siket Arnold �d�m\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\Siket Arnold �d�m\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'A hozz�f�r�s megtagadva.', None, 5)
+Traceback (most recent call last):
+  File "c:\Users\Siket Arnold �d�m\Desktop\CanSat\CanSat_real_time.py", line 31, in <module>
+    ser = serial.Serial(SERIAL_PORT,BAUD_RATE)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold �d�m\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\Siket Arnold �d�m\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\Siket Arnold �d�m\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'A hozz�f�r�s megtagadva.', None, 5)
+
+2025-01-17 20:12:27,904 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -39.2397381824011
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:28,027 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -15
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:28,194 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -39
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:28,204 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -39
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:28,712 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -50
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:29,029 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -71
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:29,336 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 133.60428023916472
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:33,179 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -11
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:35,052 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -52
+NoneType: None
+NoneType: None
+
+2025-01-17 20:12:37,917 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -112.14125827250491
+NoneType: None
+NoneType: None
+
+2025-01-17 20:13:06,771 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (69,) and (76,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_56900\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (69,) and (76,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_56900\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (69,) and (76,)
+
+2025-01-26 22:43:41,023 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -71.64856771751029
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:41,820 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -165
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:42,457 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -32.63401394974328
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:43,260 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 152.91850035963674
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:43,297 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -293
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:43,654 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -221
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:43,729 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 127
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:44,131 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -40
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:44,210 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -68
+NoneType: None
+NoneType: None
+
+2025-01-26 22:43:47,011 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -235.7508622992585
+NoneType: None
+NoneType: None
+
+2025-01-26 22:50:36,574 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -25.07625666181774
+NoneType: None
+NoneType: None
+
+2025-01-26 22:50:36,603 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -3
+NoneType: None
+NoneType: None
+
+2025-01-26 22:50:36,741 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -32
+NoneType: None
+NoneType: None
+
+2025-01-26 22:50:40,961 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -34
+NoneType: None
+NoneType: None
+
+2025-01-26 22:50:41,023 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -2
+NoneType: None
+NoneType: None
+
+2025-01-26 22:50:43,614 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -93.08324447765884
+NoneType: None
+NoneType: None
+
+2025-01-26 22:51:00,682 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (76,) and (77,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (76,) and (77,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (76,) and (77,)
+
+2025-01-26 22:51:00,682 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (76,) and (77,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (76,) and (77,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (76,) and (77,)
+
+2025-01-26 22:59:09,920 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+
+2025-01-26 22:59:09,920 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+
+2025-01-26 22:59:09,920 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+
+2025-01-26 22:59:09,920 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\3253995415.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier], [gps.longitude for gps in gpses if not gps.is_longitude_outlier], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (67,) and (73,)
+
+2025-01-26 23:05:43,439 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+
+2025-01-26 23:05:43,439 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+
+2025-01-26 23:05:43,439 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+
+2025-01-26 23:05:43,439 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+
+2025-01-26 23:05:43,439 - jupyter_notebook - ERROR - Error visualizing data: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\2371837387.py", line 13, in <module>
+    ax.plot([gps.latitude for gps in gpses if not gps.is_latitude_outlier and not gps.missing_data], [gps.longitude for gps in gpses if not gps.is_longitude_outlier and not gps.missing_data], '-')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (62,) and (67,)
+
+2025-01-26 23:06:48,042 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-26 23:06:48,042 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-26 23:06:48,042 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-26 23:06:48,042 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-26 23:06:48,042 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-26 23:06:48,042 - jupyter_notebook - ERROR - Error comparing the BMP280 and official temperatures: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+Traceback (most recent call last):
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Temp\ipykernel_47320\1310483261.py", line 15, in <module>
+    ax.plot(official_times, official_temperatures, '-', color='black', label='Official')
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Siket Arnold Ádám\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (24,) and (0,)
+
+2025-01-26 23:14:58,585 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -89.31412946533749
+NoneType: None
+NoneType: None
+
+2025-01-26 23:14:58,819 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -98
+NoneType: None
+NoneType: None
+
+2025-01-26 23:14:59,663 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -105
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:00,361 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -14.379996570229455
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:00,372 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -66
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:00,439 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -17
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:00,610 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -27
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:01,227 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -36
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:01,238 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -123
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:01,261 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -178
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:01,641 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -122
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:01,903 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -104
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:04,435 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -181
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:04,793 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 130
+NoneType: None
+NoneType: None
+
+2025-01-26 23:15:05,402 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -126.95024117578076
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:24,723 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -33.66328270097405
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:25,123 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -8.520566671248577
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:25,977 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -137
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:26,091 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -125
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:26,823 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -180
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:27,503 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -19
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:27,537 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -32
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:27,814 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 112.77169955652634
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:29,259 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 158
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:29,345 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -26
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:31,267 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: 136
+NoneType: None
+NoneType: None
+
+2025-01-26 23:19:31,452 - test_data_generator - WARNING - Failed to generate a value within bounds after 100 attempts for the current data: -19
+NoneType: None
+NoneType: None
+
