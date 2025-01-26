@@ -1,12 +1,12 @@
 """
-This file is used to plot the data from a serial port and save it to a text file.
+This file is used to plot the data from a serial port and save it to a text file. Do not open Arduino IDE while executing this file.
 """
 
 __author__ = 'KarmaDemon'
 
 try:
-    import program_files.cansattools as cansattools
-    logger = cansattools.logger_creator("CanSat_real_time")
+    from program_files.cansattools import logger_creator as logger_creator
+    logger = logger_creator("CanSat_real_time")
 except ImportError:
     print("Error setting up logger. Cansattools can't be imported. Logging is disabled.")
     logger = None
@@ -18,40 +18,38 @@ try:
 except ImportError as e:
     logger.error("Error importing module: {e}")
 
-SERIAL_PORT = '/dev/ttyUSB0'
+SERIAL_PORT = 'COM3'
 BAUD_RATE = 9600
 FILE_NAME = "datas/raw_data.txt"
 HEADER_ROW = ["Time", "Temperature", "Altitude"]
 
 fig = plt.figure()
-fig.canvas.set_window_title('REALTIME DATA PLOTTING')
+fig_manager = plt.get_current_fig_manager()
+fig_manager.set_window_title('Real time data visualization')
 
 try:
     ser = serial.Serial(SERIAL_PORT,BAUD_RATE)
 except serial.SerialException as e:
-    logger.error(f"Error opening serial port: {e}")
+    logger.error(f"Error opening serial port: {e}", exc_info=True)
 try:
     file = open("datas/raw_realtime_data.txt",'w')
 except IOError as e:
-    logger.error(f"Error opening file: {e}")
+    logger.error(f"Error opening file: {e}", exc_info=True)
     file = None
 file.write(" ".join(HEADER_ROW))
 file.write("\n")
 
-i = 0
+sensor_name: list[str] = []
 time: list[int] = []
 temperature: list[float] = []
 altitude: list[float] = []
-def animate() -> None:
+def animate(frame) -> None:
     """
-    Reads a line from the serial port, decodes it and splits it by whitespace.
-    If the message has the correct format, it writes it to a file and appends the
-    values to the time, temperature and altitude lists. It then plots the data
-    in two subplots.
-
+    This function is called periodically from FuncAnimation
+    :param frame: int
     :return: None
     """
-    global i, time, temperature, altitude
+    global sensor_name, time, temperature, altitude
     try:
         message: bytes = ser.readline()
     except serial.SerialException as e:
@@ -61,26 +59,25 @@ def animate() -> None:
     if len(message) > 5:
         l = message.decode().split()  # decode bytes to string and split by whitespace
         print(l)
-        if len(l) == 3:  # check if the message has the correct format
-            time, temp, alt = l
-            file.write(" ".join(l))
+        if len(l) == 5:  # check if the message has the correct format
+            sensor_name, temp, pres, alt, i = l
+            file.write("\t".join(l))
             file.write("\n")
             time.append(int(i))
             altitude.append(float(alt))
             temperature.append(float(temp))
-            i = i+1
 
     plt.subplot(2, 1, 1)
-    plt.plot(time,temperature,'yo-')
+    plt.plot(time, temperature, 'yo-')
     plt.xlabel('Time(ms)')
     plt.ylabel('Temperature(deg C)')
 
     plt.subplot(2, 1, 2)
-    plt.plot(time,altitude,'go-')
+    plt.plot(time, altitude, 'go-')
     plt.xlabel('Time(ms)')
     plt.ylabel('Altitude(m)')
 
-ani = animation.FuncAnimation(fig, animate, interval=1000)
+ani = animation.FuncAnimation(fig, animate, interval=1000, cache_frame_data=False)
 plt.show()
 
 ser.close()
