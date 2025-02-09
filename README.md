@@ -5,7 +5,7 @@ The repository is currently under developement. There might be missing parts, un
 
 ## Introduction
 This repository is part of the MGZ CanSat mission, which is designed for the CanSat verseny 2024 competition. For more information about the competition, visit the official website: https://www.cansatverseny.hu/
-The repository was created by the MákosGubaZabálók team.
+The repository was created by team MákosGubaZabálók.
 
 The only official source for the program is the following GitHub repository: https://github.com/KarmaDemon/MGZ-CanSat-Ground-station Do NOT download the program from any other source for your own safety!
 
